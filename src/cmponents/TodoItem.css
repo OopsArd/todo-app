@@ -1,0 +1,42 @@
+.TodoItem{
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4d4d4d;
+    border-bottom: 1px solid #bebebe;
+    padding: 5px 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.TodoItem > p{
+    text-align: center;
+}
+
+.TodoItem-complete {
+    text-decoration: line-through;
+    opacity: .3;
+}
+
+.TodoItem:last-child{
+    border-bottom: none;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox{
+    margin-right: 5px;
+}
+
+.btn-delete{
+    border: none;
+    font-size: 12;
+    color: red;
+}
